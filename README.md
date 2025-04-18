@@ -50,7 +50,7 @@ docker compose -f docker/docker-compose.yml up --build
 
 This will:
 
--Launch a PostgreSQL container  
+-Launch a PostgreSQL server inside a Docker container  
 -Install all Python requirements  
 
 # 3. Run the ETL process
