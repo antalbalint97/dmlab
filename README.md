@@ -1,4 +1,4 @@
-# 📊 Financial Data ETL & Dashboard
+# Financial Data ETL & Dashboard
 
 This project provides an end-to-end ETL pipeline and interactive dashboard for financial stock data using the `yfinance` API. 
 It loads, transforms, and stores historical market data in a PostgreSQL database, and visualizes selected metrics in a **Streamlit** dashboard.
@@ -59,7 +59,7 @@ python -m app.etl_pipeline
 ```
 This will:  
   
--Run the ETL pipeline (app.etl_pipeline.py)  
+-Run the ETL pipeline (.etl_pipeline.py)  
 -Populate the database with:  
     companies  
     daily_prices  
