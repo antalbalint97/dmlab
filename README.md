@@ -36,9 +36,6 @@ dmlab/
 └── README.md                        # Project instructions
 ```
 # Environment Variables
-All DB credentials are handled via .env.
-
-# Environment Variables
 Make sure Docker and Docker Compose are installed on your system.
 
 # 1. Clone the project
