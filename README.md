@@ -53,22 +53,22 @@ docker compose -f docker/docker-compose.yml up --build
 
 This will:
 
--Launch a PostgreSQL container
--Install all Python requirements
+-Launch a PostgreSQL container  
+-Install all Python requirements  
 
 # 3. Run the ETL process
 ```
 python -m app.etl_pipeline
 ```
-This will:
-
--Run the ETL pipeline (app.etl_pipeline.py)
--Populate the database with:
-    companies
-    daily_prices
-    daily_prices_adjusted
-
-You should see logs confirming table creations.
+This will:  
+  
+-Run the ETL pipeline (app.etl_pipeline.py)  
+-Populate the database with:  
+    companies  
+    daily_prices  
+    daily_prices_adjusted  
+  
+You should see logs confirming table creations.  
 
 # 4. Launch the dashboard
 ```
